@@ -1,18 +1,30 @@
 
-body { max-width: 1000px;}
+body { max-width: 1000px; background-image: url("images/fondWC.png"); background-attachment: fixed;}
 
-
+.container {padding:0 !important;}
 
 .banniere {	max-width: 1000px;
 			width: auto;
 			}
 
+.navbar {border-radius: 0 !important; margin-bottom: 0 !important}
+			
 section {max-width: 1000px; padding: 5px; color:#a5a0a0}
 
 section h1 {	font-size:2em;
 			color: white;}
 	
-#home, #who, #human, #animals, #virtual, #wherewhen {background-image: url("images/home2.png"); height:400px}
+#wherewhen {background-image: url("images/fondsectionvide.png"); height:400px}
+
+#home{background-image: url("images/home2.png"); height:400px}
+
+#who{background-image: url("images/who.png"); height:400px}
+
+#human{background-image: url("images/humans.png"); height:400px}
+
+#animals {background-image: url("images/animals.png"); height:400px}
+
+#augmentedr {background-image: url("images/augmr.png"); height:400px}
 
 .text-center {color: white;
 font-size: 1.5em;
