@@ -9,9 +9,9 @@ body { max-width: 1000px; background-image: url("images/fondWC.png"); background
 
 .navbar {border-radius: 0 !important; margin-bottom: 0 !important}
 			
-section {max-width: 1000px; padding: 5px; color:#a5a0a0}
+section {max-width: 1000px; padding: 5px; color:#a5a0a0; font-size:1.5em}
 
-section h1 {	font-size:2em;
+ h1 {	font-size:2em;
 			color: white;}
 	
 #wherewhen {background-image: url("images/fondsectionvide.png"); height:400px}
@@ -26,6 +26,3 @@ section h1 {	font-size:2em;
 
 #augmentedr {background-image: url("images/augmr.png"); height:400px}
 
-.text-center {color: white;
-font-size: 1.5em;
-font-style:bold}
