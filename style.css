@@ -9,7 +9,7 @@ body { max-width: 1000px; background-image: url("images/fondWC.png"); background
 
 .navbar {border-radius: 0 !important; margin-bottom: 0 !important}
 			
-section {max-width: 1000px; padding: 5px; color:#a5a0a0; font-size:1.5em}
+section {max-width: 1000px; padding: 5px; color:#a5a0a0; font-size:1.2em}
 
  h1 {	font-size:2em;
 			color: white;}
@@ -26,3 +26,4 @@ section {max-width: 1000px; padding: 5px; color:#a5a0a0; font-size:1.5em}
 
 #augmentedr {background-image: url("images/augmr.png"); height:400px}
 
+list-group-item {rgba: (253, 253, 253, 0.5)}
