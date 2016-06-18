@@ -3,8 +3,9 @@ body { max-width: 1000px; background-image: url("images/fondWC.png"); background
 
 .container {padding:0 !important;}
 
-.banniere {	max-width: 1000px;
+.banniere {	max-width: 100%;
 			width: auto;
+			
 			}
 
 .navbar {border-radius: 0 !important; margin-bottom: 0 !important}
@@ -13,8 +14,10 @@ section {max-width: 1000px; padding: 5px; color:#a5a0a0; font-size:1.2em}
 
  h1 {	font-size:2em;
 			color: white;}
+
+.list-group-item { background-color: rgba(0, 0, 15, 0.5) !important; border-radius:0 !important}
 	
-#wherewhen {background-image: url("images/fondsectionvide.png"); height:400px}
+#wherewhen {background-image: url("images/fondsectionvide.png"); }
 
 #home{background-image: url("images/home2.png"); height:400px}
 
@@ -26,4 +29,5 @@ section {max-width: 1000px; padding: 5px; color:#a5a0a0; font-size:1.2em}
 
 #augmentedr {background-image: url("images/augmr.png"); height:400px}
 
-list-group-item {rgba: (253, 253, 253, 0.5)}
+
+footer{background-color:rgba(230,230,230,0.8); font-size:0.8em}
