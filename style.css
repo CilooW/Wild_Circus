@@ -1,21 +1,24 @@
 
 body { max-width: 1000px; background-image: url("images/fondWC.png"); background-attachment: fixed;}
 
-.container {padding:0 !important;}
+.container {padding:0}
 
 .banniere {	max-width: 100%;
 			width: auto;
+			margin-top:50px;
 			
 			}
 
-.navbar {border-radius: 0 !important; margin-bottom: 0 !important}
+.navbar {border-radius: 0;}
 			
-section {max-width: 1000px; padding: 5px; color:#a5a0a0; font-size:1.2em}
+section {max-width: 1000px; padding: 5px; color:#f2f2f2; font-size:1.2em}
 
- h1 {	font-size:2em;
-			color: white;}
+h1 {	font-size:2em;
+	font-family:Impact;
+	color: #f2f2f2;
+	text-shadow: #000000 3px 6px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;}
 
-.list-group-item { background-color: rgba(0, 0, 15, 0.5) !important; border-radius:0 !important}
+.list-group-item { background-color: rgba(0, 0, 15, 0.5); border-radius:0 !important}
 	
 #wherewhen {background-image: url("images/fondsectionvide.png"); }
 

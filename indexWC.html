@@ -3,13 +3,15 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" href="style.css"/>
+		
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="style.css"/>
+
 		<title>Wild Circus</title>
 	</head>
 	
-<body class="container">
+<body class="container" data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
 
@@ -23,7 +25,7 @@
 
 
 <!--navigation-->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
 
 	<ul class="nav navbar-nav">
 		<li><a href="#home">home</a></li>
@@ -101,12 +103,12 @@ Be curious, and come to see them like thousand of people before you.</p>
 	<table class="table">
 	<caption class="text-center">Our next dates / Location in 2016 :</caption>
 
-	<tr><td>15 to 26 of June :</td>			<td><b> Berlin, Germany</b> </td>			<td><a class="btn btn-default btn-sm" href="#">Book now! </a></td></tr> 
-	<tr><td>June 29 to July 10 :</td>		<td><b> Pragues, Tcheck Republic </b></td>	<td><a class="btn btn-default btn-sm" href="#">Book now! </a></td></tr> 
-	<tr><td>July 13 to 24 : </td>			<td><b>Vienna, Austria</b> </td>			<td><a class="btn btn-default btn-sm" href="#">Book now! </a></td></tr> 
-	<tr><td>July 27 to August 7:</td>		<td><b> Budapest, Hungary </b></td>			<td><a class="btn btn-default btn-sm" href="#">Book now! </a></td></tr>
-	<tr><td>August 10 to 21:</td>			<td><b> Zagreb, Croatia </b></td>			<td><a class="btn btn-default btn-sm" href="#">Book now! </a></td></tr> 
-	<tr><td>August 24 to September 4:</td>	<td><b> Verone, Italia </b></td>			<td><a class="btn btn-default btn-sm" href="#">Book now! </a></td></tr> 
+	<tr><td>15 to 26 of June :</td>			<td><b> Berlin, Germany</b> </td>			<td><button class="btn btn-default btn-sm date available" >Check availiblity now! </button></td></tr> 
+	<tr><td>June 29 to July 10 :</td>		<td><b> Pragues, Tcheck Republic </b></td>	<td><button class="btn btn-default btn-sm date complete" >Check availiblity now! </button></td></tr> 
+	<tr><td>July 13 to 24 : </td>			<td><b>Vienna, Austria</b> </td>			<td><button class="btn btn-default btn-sm date complete" >Check availiblity now! </button></td></tr> 
+	<tr><td>July 27 to August 7:</td>		<td><b> Budapest, Hungary </b></td>			<td><button class="btn btn-default btn-sm date available" >Check availiblity now! </button></td></tr>
+	<tr><td>August 10 to 21:</td>			<td><b> Zagreb, Croatia </b></td>			<td><button class="btn btn-default btn-sm date available" >Check availiblity now! </button></td></tr> 
+	<tr><td>August 24 to September 4:</td>	<td><b> Verone, Italia </b></td>			<td><button class="btn btn-default btn-sm date complete" >Check availiblity now! </button></td></tr> 
 
 	</table>
 </section>
@@ -127,6 +129,10 @@ Most of these image are not belonging to me, I took these on the internet and mo
 
 
 
-<script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
-<script>application.js</script>
+	<!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	
+<script src="application.js"></script>
 </body>
